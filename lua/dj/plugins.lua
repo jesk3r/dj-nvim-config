@@ -40,6 +40,7 @@ packer.init {
 
 -- Install your plugins here
 return packer.startup(function(use)
+
   -- My plugins here
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
@@ -59,7 +60,6 @@ return packer.startup(function(use)
   use 'VonHeikemen/lsp-zero.nvim'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
-  use 'VonHeikemen/lsp-zero.nvim'
   use 'neovim/nvim-lspconfig'
 
   --  fuzzy finder
